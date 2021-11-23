@@ -1,0 +1,26 @@
+<section class="row">
+    <div class= "column">
+        <h2> {{ user-name }} </h2>
+        <h3>About Me</h3>
+        {{> user-info}}
+    </div>
+        <div class= "column">
+        <h2> New Post </h2>
+        
+        <form class="post">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title"/>
+            </div>
+            <div>
+                <label>Image</label>
+                <image href="/" id="image" />
+            </div>
+            <button type="submit" class="btn">Create</button>
+        </form>
+    </div>
+</section>
+
+{{#if posts.length}}
+
+<script src="javascript/add-post.js"></script>
