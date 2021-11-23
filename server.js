@@ -2,6 +2,11 @@ const { response } = require('express')
 const express = require('express')
 const app = express()
 const bcrypt = require('bcrypt')
+const passport = require('passport')
+
+const initializePassport = require('./passport-config')
+const passport = require('passport')
+initializePassport(passport)
 
 const users = []
 
@@ -36,7 +41,6 @@ app.post('/register', async (req, res) => {
     } catch {
         res.redirect('/register')  
     }
-    console.log(users)
 })
 
 
