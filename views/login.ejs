@@ -1,4 +1,9 @@
 <h1>Login</h1>
+
+<% if (messages.error) { %>
+   <%= messages.error %>
+<% } %>
+
 <form action = '/login' method="POST">
     <div>
         <label for = "email">Email</label>
@@ -10,4 +15,5 @@
     </div>
 <button type="submit">Login</button>
 </form>
+
 <a href="/register">Register</a>
