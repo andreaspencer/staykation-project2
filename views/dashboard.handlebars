@@ -1,26 +1,19 @@
-<section class="row">
-    <div class= "column">
-        <h2> {{ user-name }} </h2>
-        <h3>About Me</h3>
-        {{> user-info}}
-    </div>
-        <div class= "column">
-        <h2> New Post </h2>
-        
-        <form class="post">
-            <div>
-                <label for="title">Title</label>
-                <input type="text" id="title" name="title"/>
-            </div>
-            <div>
-                <label>Image</label>
-                <image href="/" id="image" />
-            </div>
-            <button type="submit" class="btn">Create</button>
-        </form>
-    </div>
+<section class="new-post">
+    <button type="submit" class="btn" id="create-new-post"> Create New Post </button>
 </section>
 
 {{#if posts.length}}
+<section>
+    <h2>Your StayKations</h2>
+    <ul class="post-list">
+        {{#each posts as |post|}}
+        <li>
+            {{> post-info post}}
+        </li>
+        <a href="/dashboard/edit{{post.id}}" class="edit-link">Edit Post</a>
+        {{/each}}
+    </ul>
+</section>
+{{/if}}
 
-<script src="javascript/add-post.js"></script>
+<script src="/javascript/create-post.js"></script>
