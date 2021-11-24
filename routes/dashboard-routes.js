@@ -40,9 +40,36 @@ router.get('/', withAuth, (req, res) => {
     })
 })
 
-router.get('/new', (req, res) => {
-    res.render('add-post.handlebars', {
-        loggedIn: true
+router.get('/create/', withAuth, (req, res) => {
+    Post.findAll({
+        where: {
+            user_id: req.session.user_id
+        },
+        attributes: ['id', 'title', 'created_at', 'post_content'],
+        include: [
+            {
+                model: Comment,
+                attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+                include: {
+                    model: User,
+                    attributes: ['username']
+                }
+            },
+            {
+                model: User,
+                attributes: ['username']
+            }
+        ]
+    })
+    .then(dbPostData => {
+        const posts = dbPostData.map(post => post.get({
+            plain: true
+        }))
+        res.render('create-post', { posts, loggedIn: true })
+    })
+    .catch(err => {
+        console.err(err);
+        res.status(500).json(err);
     })
 })
 
