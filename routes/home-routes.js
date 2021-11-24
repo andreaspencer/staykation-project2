@@ -97,8 +97,5 @@ router.get('/signup', (req, res) => {
     res.render('signup.handlebars');
 })
 
-router.get('*', (req, res) => {
-    res.status(404).send("Not a valid route");
-})
 
 module.exports = router;

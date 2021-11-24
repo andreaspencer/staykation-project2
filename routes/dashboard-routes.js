@@ -30,7 +30,7 @@ router.get('/', withAuth, (req, res) => {
         const posts = dbPostData.map(post => post.get({
             plain: true
         }));
-        res.render('dashboard.handlebars', {
+        res.render('dashboard', {
             posts, loggedIn: true
         });
     })
@@ -38,7 +38,7 @@ router.get('/', withAuth, (req, res) => {
         console.err(err);
         res.status(500).json(err)
     })
-})
+});
 
 router.get('/create/', withAuth, (req, res) => {
     Post.findAll({
