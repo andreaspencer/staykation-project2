@@ -25,3 +25,5 @@ async function commentHandler(event) {
         }
     }
 }
+
+document.querySelector('').addEventListener('click', commentHandler)

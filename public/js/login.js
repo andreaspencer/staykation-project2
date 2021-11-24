@@ -23,3 +23,5 @@ async function loginHandler(event) {
         }
     }
 }
+
+document.querySelector('').addEventListener('click', loginHandler);

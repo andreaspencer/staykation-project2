@@ -15,3 +15,5 @@ async function deleteHandler(event) {
         alert(response.statusText)
     }
 }
+
+document.querySelector('').addEventListener('click', deleteHandler)
