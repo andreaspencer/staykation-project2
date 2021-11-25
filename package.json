@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/andreaspencer/staykation-project2/issues"
   },
-  "homepage": "https://github.com/andreaspencer/staykation-project2#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
@@ -29,5 +28,8 @@
   },
   "engines": {
     "node": "14.17.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
   }
 }
