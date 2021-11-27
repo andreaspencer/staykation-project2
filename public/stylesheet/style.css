@@ -22,7 +22,7 @@ button {
     background-color: rgb(83, 47, 47);
     border: 0;
     padding: 1%;
-    color: white;
+    color: darkblue;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
@@ -40,6 +40,7 @@ button:hover {
 
 form>div {
     margin-bottom: 2%;
+    justify-content: center;
 }
 
 form label {
