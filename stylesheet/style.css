@@ -9,6 +9,7 @@ body, html {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkgrey;
     background-image: url("vacation.jpeg");
+    background-size: 100%;
 }
 
 main, .site-name {
