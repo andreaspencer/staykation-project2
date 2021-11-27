@@ -1,0 +1,22 @@
+<section class="new-post">
+    <button type="submit" class="btn" id="create-new-post"> Create New Post </button>
+</section>
+
+{{#if posts.length}}
+<section>
+    <h2>Your StayKations</h2>
+    <ul class="post-list">
+        {{#each posts as |post|}}
+        <li>
+            {{> post-info post}}
+        </li>
+        {{/each}}
+    </ul>
+</section>
+
+{{else}}
+<h6>You do not have any posts</h6>
+
+{{/if}}
+
+<script src="/js/create-post.js"></script>

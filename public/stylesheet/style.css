@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightblue,
+}
+
+main, .site-name {
+    background-color: rgb(223, 158, 135);
+}
+
+a, .btn-no-style {
+    color: rgb(192, 166, 166);
+}
+
+button {
+    background-color: rgb(83, 47, 47);
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: burlywood;
+}
+
+.post-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+form>div {
+    margin-bottom: 2%;
+}
+
+form label {
+    display: block;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+info-section {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header, .sit-row, .info-section, .form-heading {
+    background-color: burlywood;
+}
+
+.login-page, .sign-up-page, .new-form-page {
+    border: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.form-heading {
+    padding: 10px;
+}
+
+.info-section, .content-section, .form-section, .sign-in-link, .login-link {
+    padding-left: 10px;
+}
+
+.post-name, .post-title-section, .new-page {
+    padding-top: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.site-row {
+    display: flex;
+    border-bottom: 1px solid burlywood;
+    justify-content: center;
+}
+
+.site-name {
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-style: dashed;
+}
+
+main {
+    flex: 1;
+    padding: 2% 4%;
+}
+
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.btn-no-style:hover {
+    background-color: cornsilk;
+}
+
+.delete-post-btn {
+    background-color: rgb(223, 158, 135);
+}
+
+.delete-post-btn:hover {
+    background-color: rgb(156, 65, 84);
+}
+
+.post {
+    margin-bottom: 2%;
+    line-height: 150%;
+    border: 3px rgb(83, 47, 47);
+}
+
+.comment-form {
+    margin-bottom: 5%;
+}
+
+.comment {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.new-post-form input {
+    margin-bottom: 5%;
+}
+
+.new-post-section {
+    display: flex;
+    justify-content: center;
+}
+
+#create-new-post {
+    width: 15%;
+}
+
+.sign-in-link,
+.login-link {
+    color:rgb(192, 166, 166);
+}
+
+.form-heading h1, .form-heading h2 {
+    color: rgb(223, 158, 135);
+}
+
+.login-form, .signup-form, .post-content, .post-title-section {
+    padding: 10px 10px 0px 0px;
+}
+
+.entry-field, .login-signup-btn, .btn, #post-title {
+    width: 100%;
+}
+
+

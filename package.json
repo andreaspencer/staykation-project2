@@ -18,11 +18,19 @@
   },
   "homepage": "https://github.com/andreaspencer/staykation-project2#readme",
   "dependencies": {
+<<<<<<< HEAD
     "cloudify": "^1.4.0",
     "connect-mysql": "^4.0.0",
     "cookie-parser": "^1.4.6",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+=======
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+>>>>>>> 68010ad841546c25ad3525746d6c994108178810
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
     "passport": "^0.5.0",
