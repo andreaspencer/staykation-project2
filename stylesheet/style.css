@@ -7,7 +7,8 @@ body, html {
     padding: 0;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: lightblue,
+    color: darkgrey;
+    background-image: url("vacation.jpeg");
 }
 
 main, .site-name {
@@ -22,7 +23,7 @@ button {
     background-color: rgb(83, 47, 47);
     border: 0;
     padding: 1%;
-    color: white;
+    color: darkgrey;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
