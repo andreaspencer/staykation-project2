@@ -105,6 +105,7 @@ header h1 {
     margin-bottom: 10px;
     padding: 0px 10px;
     border-style: dashed;
+    text-decoration: none;
 }
 
 main {
