@@ -19,9 +19,8 @@ This application is a social platform designed to accommodate the â€œnew-normalâ
 
 #### Our Work
 - Andrea Spencer: Welcome page, Readme, Handlebars, CSS, Goodle Slides
-- Gigi Morris: Models, CRUD, API Routes, Google Slides
-- Austin Zanini: Passport, Sign-in and log-in functionality, Google Slides
-- Hugo Samayoa: Debugging, Google Slide
+- Gigi Morris: Models, CRUD, API Routes, Google Slides, Cloudify
+- Austin Zanini: Cloudify, Sign-in and log-in functionality, Google Slides
 
 ##### Installation
 * copy git hub repo link
