@@ -7,22 +7,30 @@ body, html {
     padding: 0;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: lightblue,
+    color: white;
+    background-size: 100%;
 }
 
-main, .site-name {
-    background-color: rgb(223, 158, 135);
+body {
+     background-image: url("../images/Backyard-Ideas-Styled-To-Feel-Like-A-Vacation-Getaway-05-1-Kindesign.jpg");
+     background-size: 100%;
 }
+
+
+/* main, .site-name {
+    background-color: rgb(223, 158, 135);
+} */
 
 a, .btn-no-style {
-    color: rgb(192, 166, 166);
+    color: rgba(71, 4, 35, 0.966);
+    text-decoration: none;
 }
 
 button {
     background-color: rgb(83, 47, 47);
     border: 0;
     padding: 1%;
-    color: white;
+    color: darkgray;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
@@ -103,6 +111,7 @@ header h1 {
     margin-bottom: 10px;
     padding: 0px 10px;
     border-style: dashed;
+    text-decoration: none;
 }
 
 main {
@@ -177,5 +186,3 @@ main {
 .entry-field, .login-signup-btn, .btn, #post-title {
     width: 100%;
 }
-
-
