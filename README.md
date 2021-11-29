@@ -43,3 +43,6 @@ This application is a social platform designed to accommodate the â€œnew-normalâ
 
 ###### Live URL
 https://staykation-project2.herokuapp.com/
+
+###### VIDEO LINK TO WORKING REPO
+https://us02web.zoom.us/rec/share/xYQUX1-YJdgRneElu8JqVzslnmKaDtbsKKBHbVOEAZvfJWxRIfmajTgBCp9eEZLr.RfjlIPPMl535j4X4
