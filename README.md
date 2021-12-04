@@ -8,7 +8,6 @@ This application is a social platform designed to accommodate the â€œnew-normalâ
 * handlebars as a template
 * MySQL and sequelize
 * GET and POST routes
-* deployed on Heroku
 * new library (passport)
 * Responsive and interactive
 * authentication using cookies and express-session
@@ -19,9 +18,8 @@ This application is a social platform designed to accommodate the â€œnew-normalâ
 
 #### Our Work
 - Andrea Spencer: Welcome page, Readme, Handlebars, CSS, Goodle Slides
-- Gigi Morris: Models, CRUD, API Routes, Google Slides
-- Austin Zanini: Passport, Sign-in and log-in functionality, Google Slides
-- Hugo Samayoa: Debugging, Google Slide
+- Gigi Morris: Models, CRUD, API Routes, Google Slides, Cloudify
+- Austin Zanini: Cloudify, Sign-in and log-in functionality, Google Slides
 
 ##### Installation
 * copy git hub repo link
@@ -30,7 +28,21 @@ This application is a social platform designed to accommodate the â€œnew-normalâ
     - type code . to open project file in VS code
 
 ###### Screenshot
+<img width="468" alt="staykationlandingpage" src="https://user-images.githubusercontent.com/87836575/143801058-f440db96-71b9-46af-9669-6e7fcce37953.png">
+
+<img width="468" alt="staykationlogin" src="https://user-images.githubusercontent.com/87836575/143801104-c19e64c2-cbe3-4dc3-b048-ab11bb72ac77.png">
+
+<img width="468" alt="staykationsignup" src="https://user-images.githubusercontent.com/87836575/143801162-fef699a6-cc3c-4f22-8444-e81b3b92f1e6.png">
+
+<img width="468" alt="staykationdashboard" src="https://user-images.githubusercontent.com/87836575/143801247-cf75ec3c-bc1f-44f9-b90f-cdfc330840cf.png">
+
+<img width="468" alt="staykationuploadimagepost" src="https://user-images.githubusercontent.com/87836575/143801278-144242d4-84e3-44e9-a9df-4e6303856694.png">
+
+<img width="468" alt="staykationenteringlogin" src="https://user-images.githubusercontent.com/87836575/143801292-2e7070ae-08b7-4fe4-bec5-9336e15d7530.png">
 
 
 ###### Live URL
 https://staykation-project2.herokuapp.com/
+
+###### VIDEO LINK TO WORKING REPO
+https://us02web.zoom.us/rec/share/xYQUX1-YJdgRneElu8JqVzslnmKaDtbsKKBHbVOEAZvfJWxRIfmajTgBCp9eEZLr.RfjlIPPMl535j4X4

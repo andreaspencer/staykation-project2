@@ -2,6 +2,14 @@ const submitBtn = document.getElementById('submitBtn');
 const fileInput = document.getElementById('fileInput');
 const gallery = document.getElementById('gallery');
 
+        // async function createPostHandler(event) {
+        //     event.preventDefault();
+
+        //     document.location.replace('/dashboard/create')
+        // }
+
+        // document.querySelector('#create-new-post').addEventListener('click', createPostHandler)
+
 var myWidget = cloudinary.createUploadWidget({
     cloudName: 'my_cloud_name', 
     uploadPreset: 'my_preset'}, (error, result) => { 
