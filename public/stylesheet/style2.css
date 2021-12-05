@@ -12,8 +12,7 @@ body, html {
 }
 
 body {
-     background-image: url("../images/Backyard-Ideas-Styled-To-Feel-Like-A-Vacation-Getaway-05-1-Kindesign.jpg");
-     background-size: 100%;
+     background-color: burlywood;
 }
 
 
@@ -187,21 +186,16 @@ main {
     width: 100%;
 }
 
-.nopost {
-    color: rgba(71, 4, 35, 0.966);
-    font-size: large;
-}
-
-
-
 footer {
     color: rgb(83, 47, 47);
     font-size: large;
     font-weight: bolder;
+    text-align: center;
 }
 
+
 /* // TEXT BUTTON */
-/* 
+
 #post-title {
     text-align: center;
 }
@@ -209,4 +203,4 @@ footer {
 #text-box {
     justify-content: center;
     
-} */
+}

@@ -1,3 +1,20 @@
+{{#if posts.length}}
+<section>
+    <h2>Your StayKations</h2>
+    <ul class="post-list">
+        {{#each posts as |post|}}
+        <li>
+            {{!-- {{> post-info post}} --}}
+            {{post.title}}
+        </li>
+        {{/each}}
+    </ul>
+</section>
+
+{{else}}
+<h6>You do not have any posts</h6>
+
+{{/if}}
 
 <h2 id="post-title">StayKation Experience</h2>
 
