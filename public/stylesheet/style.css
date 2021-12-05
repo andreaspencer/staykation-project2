@@ -148,7 +148,7 @@ main {
     border: 3px rgb(83, 47, 47);
 }
 
-.comment-form {
+#text-box {
     margin-bottom: 5%;
 }
 
@@ -195,5 +195,6 @@ main {
 }
 
 #text-box {
-    text-align: center;
+    justify-content: center;
+    
 }
