@@ -26,14 +26,16 @@ a, .btn-no-style {
 }
 
 button {
-    background-color: rgb(83, 47, 47);
+    background-color: rgb(73, 127, 241);
     border: 0;
     padding: 1%;
-    color: darkgray;
+    color: white;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
 }
+
+
 
 button:hover {
     background-color: burlywood;
@@ -185,6 +187,9 @@ main {
 .entry-field, .login-signup-btn, .btn, #post-title {
     width: 100%;
 }
+
+
+
 
 footer {
     color: rgb(83, 47, 47);
