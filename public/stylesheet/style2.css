@@ -26,19 +26,21 @@ a, .btn-no-style {
 }
 
 button {
-    background-color: rgb(73, 127, 241);
+    background-color: rgb(28, 115, 232);
     border: 0;
     padding: 1%;
     color: white;
-    font-weight: bold;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
-
+#submit-post {
+    padding: 17px 34px;
+    border-radius: 4px;
+}
 
 button:hover {
-    background-color: burlywood;
+    background-color: rgb(85, 54, 13);
 }
 
 .post-list {
