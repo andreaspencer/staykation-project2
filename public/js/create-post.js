@@ -13,6 +13,6 @@ function myClickFunction() {
     var textBox = document.getElementById('#text-box').value;
     document.getElementById('#output').innerHTML = textBox;
     console.log(textBox);
-}
+};
 
   
