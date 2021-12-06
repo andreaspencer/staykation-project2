@@ -153,6 +153,20 @@ main {
 
 #text-box {
     margin-bottom: 5%;
+
+}
+
+textarea {
+  width: 70%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+ 
 }
 
 .comment {
