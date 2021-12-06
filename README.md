@@ -45,4 +45,5 @@ This application is a social platform designed to accommodate the â€œnew-normalâ
 https://staykation-project2.herokuapp.com/
 
 ###### VIDEO LINK TO WORKING REPO
-https://us02web.zoom.us/rec/share/xYQUX1-YJdgRneElu8JqVzslnmKaDtbsKKBHbVOEAZvfJWxRIfmajTgBCp9eEZLr.RfjlIPPMl535j4X4
+https://us02web.zoom.us/rec/share/KXsg8EZUxAgA4wZSy5r9vTvvM9jdxsw3Tdl9R5g9mydNFoDFCj0nrylRiq84k3Vy.9aQZHX21i2cxuKuV
+
