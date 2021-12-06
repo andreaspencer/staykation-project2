@@ -31,7 +31,7 @@ router.get('/', withAuth, (req, res) => {
             plain: true
         }));
         res.render('dashboard', {
-            posts, loggedIn: true
+            posts, loggedIn: true, layout: "../layouts/home.handlebars"
         });
     })
     .catch(err => {
@@ -65,7 +65,7 @@ router.get('/create/', withAuth, (req, res) => {
         const posts = dbPostData.map(post => post.get({
             plain: true
         }))
-        res.render('create-post', { posts, loggedIn: true })
+        res.render('create-post', { posts, loggedIn: true, layout: "../layouts/home.handlebars" })
     })
     .catch(err => {
         console.log(err);

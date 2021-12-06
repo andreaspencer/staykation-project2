@@ -4,4 +4,15 @@ async function createPostHandler(event) {
     document.location.replace('/dashboard/create')
 }
 
-document.querySelector('#create-new-post').addEventListener('click', createPostHandler)
+// const myClickFunction;
+
+document.querySelector('#create-new-post').addEventListener('click', createPostHandler);
+document.querySelector('#submit-post').addEventListener('click', myClickFunction);
+
+function myClickFunction() {
+    var textBox = document.getElementById('#text-box').value;
+    document.getElementById('#output').innerHTML = textBox;
+    console.log(textBox);
+}
+
+  
