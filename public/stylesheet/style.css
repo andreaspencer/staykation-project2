@@ -14,7 +14,6 @@ body, html {
 body {
      background-image: url("../images/Backyard-Ideas-Styled-To-Feel-Like-A-Vacation-Getaway-05-1-Kindesign.jpg");
      background-size: 100%;
-}
 
 
 /* main, .site-name {
@@ -25,6 +24,12 @@ a, .btn-no-style {
     color: rgba(71, 4, 35, 0.966);
     text-decoration: none;
 }
+
+.need-sign {
+    color: white;
+
+}
+
 
 button {
     background-color: rgb(83, 47, 47);
